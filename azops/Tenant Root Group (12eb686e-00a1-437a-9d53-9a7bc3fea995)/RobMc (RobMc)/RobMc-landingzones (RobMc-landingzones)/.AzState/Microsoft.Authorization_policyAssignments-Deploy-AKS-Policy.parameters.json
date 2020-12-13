@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "c4f69c6f-9986-4aef-beed-4cab5a9d92da",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deploy-AKS-Policy",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-AKS-Policy",
+        "Properties": {
+          "Description": "Deploy-AKS-Policy",
+          "DisplayName": "Deploy-AKS-Policy",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a8eff44f-8c92-45c3-a3fb-9880802d67a7",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-AKS-Policy",
+        "ResourceName": "Deploy-AKS-Policy",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/subscriptions/30ce57aa-8d15-4e5d-8fd4-68741e089bfd/providers/Microsoft.Authorization/roleAssignments/6b45e8bd-336b-420b-a243-d04d164028d6",
+        "Name": "6b45e8bd-336b-420b-a243-d04d164028d6",
+        "properties": {
+          "DisplayName": "GithubActions-MSDN Enterprise18",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "6d0f0822-3c86-44f4-a7dd-e9b05d43c604",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/b24988ac-6180-42a0-ab88-20f7382dd24c",
+          "RoleDefinitionName": "Contributor"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

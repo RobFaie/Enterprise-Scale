@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-management",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "RobMc-management",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "RobMc-management",
+        "UpdatedTime": "2020-12-13T08:10:29.8145465Z",
+        "UpdatedBy": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/RobMc-platform",
+        "ParentName": "RobMc-platform",
+        "ParentDisplayName": "RobMc-platform",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/432737eb-0a61-4cba-85d2-b789c4974984",
+            "Name": "432737eb-0a61-4cba-85d2-b789c4974984",
+            "DisplayName": "Rob Mac PAYG",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

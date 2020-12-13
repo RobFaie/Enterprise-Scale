@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/roleAssignments/f18fe153-f88e-5885-a436-b8e350044fd2",
+        "Name": "f18fe153-f88e-5885-a436-b8e350044fd2",
+        "properties": {
+          "DisplayName": "Deploy-AKS-Policy",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "c4f69c6f-9986-4aef-beed-4cab5a9d92da",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "58cefd28-4baf-42c2-8dd5-d91fe1a55350",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deploy-LX-Arc-Monitoring",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyAssignments/Deploy-LX-Arc-Monitoring",
+        "Properties": {
+          "Description": "Deploy-Linux-Arc-Monitoring",
+          "DisplayName": "Deploy-Linux-Arc-Monitoring",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/432737eb-0a61-4cba-85d2-b789c4974984/resourcegroups/robmc-mgmt/providers/microsoft.operationalinsights/workspaces/robmc-la-432737eb-0a61-4cba-85d2-b789c4974984"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/9d2b61b4-1d14-4a63-be30-d4498e7ad2cf",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyAssignments/Deploy-LX-Arc-Monitoring",
+        "ResourceName": "Deploy-LX-Arc-Monitoring",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

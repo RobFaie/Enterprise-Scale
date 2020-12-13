@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "Tenant Root Group",
+        "UpdatedTime": "2020-12-13T06:29:42.5941754Z",
+        "UpdatedBy": "Tenant Backfill Job",
+        "ParentId": null,
+        "ParentName": null,
+        "ParentDisplayName": null,
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/rob-mc.cloud",
+            "Name": "rob-mc.cloud",
+            "DisplayName": "rob-mc.cloud",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc",
+            "Name": "RobMc",
+            "DisplayName": "RobMc",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

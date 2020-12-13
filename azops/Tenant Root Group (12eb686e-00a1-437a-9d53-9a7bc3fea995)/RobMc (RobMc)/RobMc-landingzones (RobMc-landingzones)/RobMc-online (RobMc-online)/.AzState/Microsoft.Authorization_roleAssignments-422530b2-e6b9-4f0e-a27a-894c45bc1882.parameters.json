@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-online/providers/Microsoft.Authorization/roleAssignments/422530b2-e6b9-4f0e-a27a-894c45bc1882",
+        "Name": "422530b2-e6b9-4f0e-a27a-894c45bc1882",
+        "properties": {
+          "DisplayName": "Robert McLeod",
+          "ObjectType": "User",
+          "PrincipalId": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

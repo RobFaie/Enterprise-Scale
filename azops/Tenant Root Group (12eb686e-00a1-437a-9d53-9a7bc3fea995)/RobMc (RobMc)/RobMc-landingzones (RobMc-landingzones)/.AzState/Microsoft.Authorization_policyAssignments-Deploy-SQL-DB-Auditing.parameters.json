@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "93f3fd8f-8328-4794-804d-ff87398f2e2f",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deploy-SQL-DB-Auditing",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "Properties": {
+          "Description": "Deploy-SQL-Audit",
+          "DisplayName": "Deploy-SQL-Audit",
+          "NotScopes": null,
+          "Parameters": null,
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/a6fb4358-5bf4-4ad7-ba82-2cd2f41ce5e9",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deploy-SQL-DB-Auditing",
+        "ResourceName": "Deploy-SQL-DB-Auditing",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "61321ba9-ed49-483b-9a38-dc9757df80f8",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deploy-AzActivity-Log",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "Properties": {
+          "Description": "Deploy-AzActivity-Log",
+          "DisplayName": "Deploy-AzActivity-Log",
+          "NotScopes": null,
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/432737eb-0a61-4cba-85d2-b789c4974984/resourcegroups/robmc-mgmt/providers/microsoft.operationalinsights/workspaces/robmc-la-432737eb-0a61-4cba-85d2-b789c4974984"
+            },
+            "logsEnabled": {
+              "value": "True"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "ResourceName": "Deploy-AzActivity-Log",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

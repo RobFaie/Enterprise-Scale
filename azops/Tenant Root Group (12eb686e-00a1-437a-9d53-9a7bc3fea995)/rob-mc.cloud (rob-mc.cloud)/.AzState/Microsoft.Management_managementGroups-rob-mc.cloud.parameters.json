@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/rob-mc.cloud",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "rob-mc.cloud",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "rob-mc.cloud",
+        "UpdatedTime": "2020-12-13T06:30:38.3642948Z",
+        "UpdatedBy": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "ParentName": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": null
+      }
+    }
+  }
+}

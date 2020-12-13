@@ -1,0 +1,50 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "RobMc",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "RobMc",
+        "UpdatedTime": "2020-12-13T08:09:08.3203283Z",
+        "UpdatedBy": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "ParentName": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "ParentDisplayName": "Tenant Root Group",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc-decommissioned",
+            "Name": "RobMc-decommissioned",
+            "DisplayName": "RobMc-decommissioned",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones",
+            "Name": "RobMc-landingzones",
+            "DisplayName": "RobMc-landingzones",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc-platform",
+            "Name": "RobMc-platform",
+            "DisplayName": "RobMc-platform",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc-sandboxes",
+            "Name": "RobMc-sandboxes",
+            "DisplayName": "RobMc-sandboxes",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

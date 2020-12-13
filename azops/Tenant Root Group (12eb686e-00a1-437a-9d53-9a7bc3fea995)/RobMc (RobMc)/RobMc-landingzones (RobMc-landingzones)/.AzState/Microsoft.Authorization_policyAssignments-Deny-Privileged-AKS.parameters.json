@@ -1,0 +1,37 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "15cb94a0-feeb-4a11-8701-c36898cd196c",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deny-Privileged-AKS",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deny-Privileged-AKS",
+        "Properties": {
+          "Description": "Deny-Privileged-Containers-AKS",
+          "DisplayName": "Deny-Privileged-Containers-AKS",
+          "NotScopes": null,
+          "Parameters": {
+            "effect": {
+              "value": "deny"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/95edb821-ddaf-4404-9732-666045e056b4",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones/providers/Microsoft.Authorization/policyAssignments/Deny-Privileged-AKS",
+        "ResourceName": "Deny-Privileged-AKS",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

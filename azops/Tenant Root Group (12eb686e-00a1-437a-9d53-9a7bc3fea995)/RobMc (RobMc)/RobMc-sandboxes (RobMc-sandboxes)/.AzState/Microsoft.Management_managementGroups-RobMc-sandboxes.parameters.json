@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-sandboxes",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "RobMc-sandboxes",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "RobMc-sandboxes",
+        "UpdatedTime": "2020-12-13T08:09:48.323351Z",
+        "UpdatedBy": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/RobMc",
+        "ParentName": "RobMc",
+        "ParentDisplayName": "RobMc",
+        "Children": null
+      }
+    }
+  }
+}

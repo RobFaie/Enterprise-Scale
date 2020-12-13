@@ -1,0 +1,20 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-management/providers/Microsoft.Authorization/roleAssignments/9054781f-9980-5794-a091-0c3cf697764c",
+        "Name": "9054781f-9980-5794-a091-0c3cf697764c",
+        "properties": {
+          "DisplayName": "Deploy-Log-Analytics",
+          "ObjectType": "ServicePrincipal",
+          "PrincipalId": "43e9f681-bc6b-47f1-85f2-ce073b5be5d7",
+          "RoleDefinitionId": "/providers/Microsoft.Authorization/RoleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+          "RoleDefinitionName": "Owner"
+        },
+        "ResourceType": "Microsoft.Authorization/roleAssignments"
+      }
+    }
+  }
+}

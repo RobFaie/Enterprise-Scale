@@ -1,0 +1,52 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "principalId": "43e9f681-bc6b-47f1-85f2-ce073b5be5d7",
+          "tenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+          "type": "SystemAssigned"
+        },
+        "Location": "australiasoutheast",
+        "Name": "Deploy-Log-Analytics",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/RobMc-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "Properties": {
+          "Description": "Deploy-Log-Analytics",
+          "DisplayName": "Deploy-Log-Analytics",
+          "NotScopes": null,
+          "Parameters": {
+            "automationAccountName": {
+              "value": "RobMc-a-432737eb-0a61-4cba-85d2-b789c4974984"
+            },
+            "automationRegion": {
+              "value": "australiasoutheast"
+            },
+            "retentionInDays": {
+              "value": "30"
+            },
+            "rgName": {
+              "value": "RobMc-mgmt"
+            },
+            "workspaceName": {
+              "value": "RobMc-la-432737eb-0a61-4cba-85d2-b789c4974984"
+            },
+            "workspaceRegion": {
+              "value": "australiasoutheast"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/RobMc/providers/Microsoft.Authorization/policyDefinitions/Deploy-Log-Analytics",
+          "Scope": "/providers/Microsoft.Management/managementGroups/RobMc-management"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/RobMc-management/providers/Microsoft.Authorization/policyAssignments/Deploy-Log-Analytics",
+        "ResourceName": "Deploy-Log-Analytics",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

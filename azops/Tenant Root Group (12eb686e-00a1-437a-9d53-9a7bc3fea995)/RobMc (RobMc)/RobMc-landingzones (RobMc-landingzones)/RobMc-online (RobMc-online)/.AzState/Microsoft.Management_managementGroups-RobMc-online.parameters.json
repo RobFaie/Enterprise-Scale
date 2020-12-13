@@ -1,0 +1,29 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-online",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "RobMc-online",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "RobMc-online",
+        "UpdatedTime": "2020-12-13T08:10:27.8349932Z",
+        "UpdatedBy": "cc1f3ea0-fcd3-413f-8e6c-7b583657e76b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones",
+        "ParentName": "RobMc-landingzones",
+        "ParentDisplayName": "RobMc-landingzones",
+        "Children": [
+          {
+            "Type": "/subscriptions",
+            "Id": "/subscriptions/30ce57aa-8d15-4e5d-8fd4-68741e089bfd",
+            "Name": "30ce57aa-8d15-4e5d-8fd4-68741e089bfd",
+            "DisplayName": "Robert W. McLeod - MSDN Enterprise '18",
+            "Children": null
+          }
+        ]
+      }
+    }
+  }
+}

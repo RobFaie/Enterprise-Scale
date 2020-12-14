@@ -21,6 +21,13 @@
             "Name": "RobMc-online",
             "DisplayName": "RobMc-online",
             "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/RobMc-client",
+            "Name": "RobMc-client",
+            "DisplayName": "RobMc-client",
+            "Children": null
           }
         ]
       }

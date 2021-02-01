@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Type": "/subscriptions",
+        "Id": "/subscriptions/de9b8896-2a6c-414d-883e-e13ca6d159d0",
+        "Name": "de9b8896-2a6c-414d-883e-e13ca6d159d0",
+        "DisplayName": "Minecraft",
+        "Children": null
+      }
+    }
+  }
+}

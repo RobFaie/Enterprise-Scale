@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/RobMc-client",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "RobMc-client",
+        "TenantId": "12eb686e-00a1-437a-9d53-9a7bc3fea995",
+        "DisplayName": "RobMc-client",
+        "UpdatedTime": "2021-03-03T23:41:01.6189258Z",
+        "UpdatedBy": "549a34e1-a0b4-475f-b56f-3b1a56fca28b",
+        "ParentId": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones",
+        "ParentName": "RobMc-landingzones",
+        "ParentDisplayName": "RobMc-landingzones",
+        "Children": null
+      }
+    }
+  }
+}

@@ -27,59 +27,7 @@
             "Id": "/providers/Microsoft.Management/managementGroups/RobMc",
             "Name": "RobMc",
             "DisplayName": "RobMc",
-            "Children": [
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/RobMc-decommissioned",
-                "Name": "RobMc-decommissioned",
-                "DisplayName": "RobMc-decommissioned",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/RobMc-landingzones",
-                "Name": "RobMc-landingzones",
-                "DisplayName": "RobMc-landingzones",
-                "Children": [
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/RobMc-online",
-                    "Name": "RobMc-online",
-                    "DisplayName": "RobMc-online",
-                    "Children": null
-                  },
-                  {
-                    "Type": "/providers/Microsoft.Management/managementGroups",
-                    "Id": "/providers/Microsoft.Management/managementGroups/RobMc-client",
-                    "Name": "RobMc-client",
-                    "DisplayName": "RobMc-client",
-                    "Children": [
-                      {
-                        "Type": "/subscriptions",
-                        "Id": "/subscriptions/30ce57aa-8d15-4e5d-8fd4-68741e089bfd",
-                        "Name": "30ce57aa-8d15-4e5d-8fd4-68741e089bfd",
-                        "DisplayName": "Robert W. McLeod - MSDN Enterprise '18",
-                        "Children": null
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/RobMc-platform",
-                "Name": "RobMc-platform",
-                "DisplayName": "RobMc-platform",
-                "Children": null
-              },
-              {
-                "Type": "/providers/Microsoft.Management/managementGroups",
-                "Id": "/providers/Microsoft.Management/managementGroups/RobMc-sandboxes",
-                "Name": "RobMc-sandboxes",
-                "DisplayName": "RobMc-sandboxes",
-                "Children": null
-              }
-            ]
+            "Children": null
           },
           {
             "Type": "/subscriptions",
